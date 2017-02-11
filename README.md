@@ -10,7 +10,7 @@ A couple of scripts for making a Raspberry Pi into a home web-page server.
 
 * Download Raspian Lite [Image](https://www.raspberrypi.org/downloads/raspbian/).
 * Download [Win32DiskImage](https://sourceforge.net/projects/win32diskimager/) tool.
-* Modify setup_pi_part_1.bash variables with your new user name and ssh public key.
+* Modify [setup_pi_part_1.bash](https://github.com/EntropyHaos/z_haos_raspberry_pi_home_server_setup_script_set/blob/master/setup_pi_part_1.bash) variables with your new user name and ssh public key.
 * Write Image to SD card.
 * Copy blank file with name 'ssh' to SD card.
 * Boot pi.
