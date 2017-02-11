@@ -1,6 +1,12 @@
-# Raspberry Pi Home Web Server Setup Script Setup
+# Raspberry Pi Home Web Server Setup Script Set
 
-# To Use:
+# WAT?
+
+A couple of scripts for making a Raspberry Pi into a home web page server.
+
+# HOW?
+
+## To Use:
 
 * Download Raspian Lite [Image](https://www.raspberrypi.org/downloads/raspbian/).
 * Download [Win32DiskImage](https://sourceforge.net/projects/win32diskimager/) tool.
@@ -19,3 +25,14 @@
 * Add setup_pi_part_2.bash script to user directory.
 * Run script.
 * Served pages root is at : '/var/www/html/'
+
+# WHY?
+
+*Because i can?* No, really, because i've done this too many times and wanted to stream line it.
+
+# WEN?
+
+*Spring 2017*
+
+Version : 0.0001 (Use at your own risk!)
+
