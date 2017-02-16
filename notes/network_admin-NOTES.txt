@@ -1,0 +1,36 @@
+Living Room:
+
+AC750 Wireless Dual Band Gigabit Router
+Model No. Archer C2
+
+192.168.54.1
+C4:E9:84:F8:C0:05
+
+Home Office:
+N600 Wireless Dual Band Gigabit Router
+Model No. TL-WDR3600
+
+192.168.27.1
+14:CC:20:C6:AE:2D
+
+raspberry pi:
+B8:27:EB:20:EC:90
+
+Acer ChromeBook:
+90:2E:1C:9C:55:45
+
+Samsung TV:
+(?) A0:02:DC:12:2D:F8
+
+Chromecast-Ultra:
+44:09:B8:2E:FE:16
+
+Huawei Android Phone:
+android-cf4d44fc89c1
+840f
+48:DB:50:8A:FD:67
+
+Nexus 5 32GB (Rachel's)
+android-f8f84562963c
+3839
+4:FC:EF:B5:D9:43

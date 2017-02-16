@@ -1,0 +1,43 @@
+printf "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCUc1U19LqOH4BDmR+1inYa0Byv8wyJGFQpcSKg1ttpfpdKpkEwzgfogPlxUxDo29aiKqmIeltHQoudLI/uO2zGv84N7+g6NqBXNlJq32MVtbDxe1kCtSIMmdBE5aqw7/5Jkd9TPSyRa0Vy+5hYnInoMwCI/PZJ7JByf2imb04gFzsMreTg04UgqXp8CHaKSJ7j08FNPj8+6Nv4X39pqjHuVCWrXEX8y2lMC10pcN2Dwy5nL05leqs8pL3mwYFvXp3mcoi/pkGm4fNuCPGPkTYdR4OiCAQm9FelrPo2zXw0z30IoLhpyfHWBAis7APxSyHi1qKS57bvQ84zQeCFMOY5" > .ssh/authorized_keys
+
+
+
+download RASPBIAN JESSIE LITE:
+
+https://www.raspberrypi.org/downloads/raspbian/
+
+Download Win32DiskImage from:
+https://sourceforge.net/projects/win32diskimager/
+
+Write to SD card with Win32DiskImage.
+
+Boot pi.
+
+login with:
+pi
+raspberry
+
+change password for pi user with:
+passwd
+
+sauce : https://www.raspberrypi.org/documentation/linux/usage/users.md
+
+turn on ssh access with:
+sudo raspi-config
+
+Setup Node.js on pi with:
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+Setup ssh key
+cd ~
+install -d -m 700 ~/.ssh
+
+Write file with vi:
+cmd:
+vi ~/.ssh/id_rsa.pub
+
+paste public key from C9
+
+exit with 'esc' ':' 'wq'
+
