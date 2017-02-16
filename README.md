@@ -2,7 +2,8 @@
 
 # WAT?
 
-A couple of scripts for making a Raspberry Pi into a home web-page server.
+* A couple of scripts for making a Raspberry Pi into a home web-page server.
+* A simple Python app that allows the Pi to accept comm. from an Alex Echo. (works, but hacky)
 
 # HOW?
 
